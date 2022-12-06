@@ -40,7 +40,7 @@ int main() {
 
 
     std::cout << "Short variable : " << short_var << " , size : "
-    << sizeof(short) << " bytes" << std::endl;
+    << sizeof(short_var) << " bytes" << std::endl;
 
     std::cout << "Short Int : " << short_int << " , size : "
     << sizeof(short_int) << " bytes" << std::endl;
@@ -50,12 +50,65 @@ int main() {
 
     std::cout << "Signed short int : " << signed_short_int << " , size : "
     << sizeof(signed_short_int) << " bytes" << std::endl;
-    
+
     std::cout << "unsigned short int : " << unsigned_short_int << " , size : "
     << sizeof(unsigned_short_int) << " bytes" << std::endl;
     
     std::cout << "---------------------" << std::endl;
 
+
+
+
+    std::cout << "Int variable : " << int_var << " , size : "
+    << sizeof(int_var) << " bytes" << std::endl;
+
+    std::cout << "Signed variable : " << signed_var << " , size : "
+    << sizeof(signed_var) << " bytes" << std::endl;
+
+    std::cout << "Signed int : " << signed_int << " , size : "
+    << sizeof(signed_int) << " bytes" << std::endl;
+    
+    std::cout << "unsigned int : " << unsigned_int << " , size : "
+    << sizeof(unsigned_int) << " bytes" << std::endl;
+    
+    std::cout << "---------------------" << std::endl;
+
+
+    std::cout << "Long variable : " << long_var << " , size : "
+    << sizeof(long_var) << " bytes" << std::endl;
+
+    std::cout << "Long Int : " << long_int << " , size : "
+    << sizeof(long_int) << " bytes" << std::endl;
+
+    std::cout << "Signed long : " << signed_long << " , size : "
+    << sizeof(signed_long) << " bytes" << std::endl;
+
+    std::cout << "Signed long int : " << signed_long_int << " , size : "
+    << sizeof(signed_long_int) << " bytes" << std::endl;
+
+    std::cout << "unsigned long int : " << unsigned_long_int << " , size : "
+    << sizeof(unsigned_long_int) << " bytes" << std::endl;
+    
+    std::cout << "---------------------" << std::endl;
+
+
+
+    std::cout << "Long long : " << long_long << " , size : "
+    << sizeof(long_long) << " bytes" << std::endl;
+
+    std::cout << "Long long int : " << long_long_int << " , size : "
+    << sizeof(long_long_int) << " bytes" << std::endl;
+
+    std::cout << "Signed long long : " << signed_long_long << " , size : "
+    << sizeof(signed_long_long) << " bytes" << std::endl;
+
+    std::cout << "Signed long long int : " << signed_long_long_int << " , size : "
+    << sizeof(signed_long_long_int) << " bytes" << std::endl;
+
+    std::cout << "unsigned long long int : " << unsigned_long_long_int << " , size : "
+    << sizeof(unsigned_long_long_int) << " bytes" << std::endl;
+    
+    std::cout << "---------------------" << std::endl;
 
     return 0;
 }
